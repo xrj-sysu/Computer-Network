@@ -1,9 +1,9 @@
 Outline
-*Introduction
-*Ethernet Topologies
-*Ethernet Frame Format
-*Ethernet MAC Protocol -- CSMA/CD
-*802.3 Ethernet Standards
+  * Introduction
+  * Ethernet Topologies
+  * Ethernet Frame Format
+  * Ethernet MAC Protocol -- CSMA/CD
+  * 802.3 Ethernet Standards
 
 *CSMA/CD: Carrier Sense Multiple Access with Collision Detection
 *transceiver,adaptor,Ethernet cable, terminator, repeater.
