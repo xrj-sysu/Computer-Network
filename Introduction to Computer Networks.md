@@ -9,7 +9,7 @@ Outline
 Firstly, switch use store-and-forward transmission...(唉，英语无力) 交换机在link的输入端使用存储转发传输机制 which means 交换机必须接受整个packet before transmiting to the link. This is why transmission time actually happens.
 
 To caculate, propagation time = distance / speed of light(电、光啊)
-             transmission time = size / bandwidth
+             ;transmission time = size / bandwidth
 
 (2)封包在传输的不同阶段叫法不同，在应用层的时候叫“message”,运输层叫“segment”,网络层叫“datagram”,在链路层叫“frame”,这是因为在每一层相应加了header。
 
