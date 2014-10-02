@@ -5,6 +5,7 @@ Outline
   * Ethernet MAC Protocol -- CSMA/CD
   * 802.3 Ethernet Standards
 
+// some words
   * CSMA/CD: Carrier Sense Multiple Access with Collision Detection
   * transceiver,adaptor,Ethernet cable, terminator, repeater.
   * 10Base5 -> 10base2 -> 10baseT
@@ -24,10 +25,12 @@ Ehernet Frame Format
         * Minimally a frame must contain at least 46 bytes of data.
         * Frame must be long enough to detect collision.
   * FSC: CRS(32bits)
-注意: Min 64 bytes, Max 1518 bytes针对的是length of an Ethernet frame,不包括Preamble,因为preamble是属于physical layer的信号，不是数据层的东西,
+
+注意: 
+  * Min 64 bytes, Max 1518 bytes针对的是length of an Ethernet frame,不包括Preamble,因为preamble是属于physical layer的信号，不是数据层的东西,
       所以frame长度是不计入preamble的。
-实际上，Preamble = Preamble + SFD(Start Frame Delimiter);
-Data = LLC + PAD(padding when LLC-Frame < 46 bytes)
+  * 实际上，Preamble = Preamble + SFD(Start Frame Delimiter);
+  * Data = LLC + PAD(padding when LLC-Frame < 46 bytes)
 
 MAC is unique, 现在的笔电直接内置。An Ethernet adaptor receives all frames and accepts frames addressed to its own address, frames addressed to the broadcast address
 and frames addressed to a multicast address if it has been instructed.
