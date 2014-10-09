@@ -16,8 +16,8 @@ outline
 引出:Carrier Sense Multiple Access with Collision Avoidance(CSMA/CA)
 
 其中Key idea of CSMA/CA:
-  1.exchange control frames: RTS CTS ACK
-  2.for DCF
+  1. exchange control frames: RTS CTS ACK
+  2. for DCF
 CSMA/CA(Collision Avoidance), sense the carrier
   ·Idle, wait a DIFS then transmit
   ·Busy, wait channel to idle + wait a DIFS + wait random backoff time, then transmit
