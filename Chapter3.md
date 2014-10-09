@@ -10,8 +10,8 @@ outline
 * IEEE 802.11 Standards
 
 基于两大问题:
-1. Hidden node problem:双方虽然听不到对方的讯号，但同时传送给相同的对象会造成冲撞
-2. Exposed node problem:双方虽然听得到对方的讯号，但同时可传送给不同的对象
+  1. Hidden node problem:双方虽然听不到对方的讯号，但同时传送给相同的对象会造成冲撞
+  2. Exposed node problem:双方虽然听得到对方的讯号，但同时可传送给不同的对象
 
 引出:Carrier Sense Multiple Access with Collision Avoidance(CSMA/CA)
 
