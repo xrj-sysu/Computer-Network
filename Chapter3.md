@@ -16,8 +16,8 @@ outline
 引出:Carrier Sense Multiple Access with Collision Avoidance(CSMA/CA)
 
 其中Key idea of CSMA/CA:
-1.exchange control frames: RTS CTS ACK
-2.for DCF
+  1.exchange control frames: RTS CTS ACK
+  2.for DCF
 CSMA/CA(Collision Avoidance), sense the carrier
   ·Idle, wait a DIFS then transmit
   ·Busy, wait channel to idle + wait a DIFS + wait random backoff time, then transmit
@@ -25,7 +25,17 @@ CSMA/CA(Collision Avoidance), sense the carrier
 802.11 does not support collision detection
 
 一些概念:
-Access Points(AP)   distribution system(DS)  active scanning   passive scanning    Distributed Coordination Function(DCF)[竞争式]     Point Coordination Function(PCF)[非竞争式]   point coodinator(polling master)   IFS(Inter-Frame Space)   contention-free   superframe   RTS_Threshold
+Access Points(AP)
+distribution system(DS)
+active scanning
+passive scanning
+Distributed Coordination Function(DCF)[竞争式]     
+Point Coordination Function(PCF)[非竞争式]   
+point coodinator(polling master)   
+IFS(Inter-Frame Space)   
+contention-free   
+superframe   
+RTS_Threshold
 Net Allocation Vector(NAV)
 
 The technique for selecting an AP: scanning
@@ -44,6 +54,6 @@ SIFS used for an ACK frame, a CTS frame, by a station responding to any polling
 The length of a Superframe is a manageable parameter and that of the CF period may be variable on a per SF basis.
 
 Three Priority levels
-  ·SIFS < PIFS < DIFS
+  SIFS < PIFS < DIFS
 
 理解讲义的几张流程图极为关键
