@@ -26,3 +26,6 @@ To caculate, propagation time = distance / speed of light(电、光啊);  transm
 作用范围：switched network
 Check out this neat program I wrote:
 
+In the words of Abraham Lincoln:
+
+> Pardon my french
