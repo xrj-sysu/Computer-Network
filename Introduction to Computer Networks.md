@@ -1,4 +1,4 @@
-Outline
+##Outline
 * Applications
 * Network Connectivity
 * Network Architecture
@@ -23,3 +23,10 @@ To caculate, propagation time = distance / speed of light(电、光啊);  transm
         网络描述     interconnected network(WAN)      switched network(LAN)
 (4)unicast/broadcast/multicast
 作用范围：switched network
+Check out this neat program I wrote:
+
+```
+x = 0
+x = 2 + 2
+what is x
+```
