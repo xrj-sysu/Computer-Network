@@ -12,8 +12,8 @@ To caculate, propagation time = distance / speed of light(电、光啊);  transm
 
 (2)封包在传输的不同阶段叫法不同，在应用层的时候叫“message”,运输层叫“segment”,网络层叫“datagram”,在链路层叫“frame”,这是因为在每一层相应加了header。
 
-(3) Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonable**Project`.
-                          Router(路由器)                  Switch(交换机)
+(3)  
+     ```                   Router(路由器)                  Switch(交换机) ```
      
       packet的转送     以store and forward            强调硬件式的转换packet
                          方式处理packet               由交换机芯片完成工作
